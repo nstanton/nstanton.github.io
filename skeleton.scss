@@ -123,7 +123,8 @@ $font-stack: "minion-pro", serif;
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-  font-size: 62.5%; }
+  // font-size: 62.5%; }
+  font-size:62.5%; }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
@@ -155,10 +156,16 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 1.5rem; }
+  p  { font-size: 2rem !important; }
+  p  { line-height:1.5 !important; }
 }
 
 p {
-  margin-top: 0; }
+  margin-top: 0; 
+  font-size: 1.6rem;
+  line-height:1.3;
+  }
+
 
 
 /* Links
