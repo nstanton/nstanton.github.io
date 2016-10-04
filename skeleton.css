@@ -23,6 +23,45 @@
 - Clearing
 - Media Queries
 */
+/*–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* my own stuff
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.brands {
+  background-color: #222; }
+
+.codecademy {
+  background: #204056;
+  color: white;
+  position: relative; }
+  .codecademy:before {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: skewY(1.5deg);
+    transform-origin: 100% 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.5); }
+
+.minibar {
+  background: #222;
+  color: white;
+  position: relative; }
+
+.hopscotch {
+  background: #ED54A4;
+  color: white;
+  position: relative; }
+
+.amazon {
+  color: #222;
+  position: relative; }
+
 /* Variables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Grid 
