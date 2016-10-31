@@ -37,6 +37,7 @@
 /* Variables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 $font-stack: "minion-pro", serif;
+$font-stack2: "canada-type-gibson", Gibson, sans-serif;
 
 
 /* Grid 
@@ -149,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2rem;
   font-weight: 600; }
 // h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
-h1 { font-size: 3.1rem; line-height: 1.3;  letter-spacing: -.1rem;}
+h1 { font-size: 2.9rem; line-height: 1.3;  letter-spacing: -.1rem;}
 h2 { font-size: 1.2rem; line-height: 1.25; letter-spacing: -.1rem; }
 h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
 h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
@@ -159,7 +160,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 /* Larger than phablet */
 @media (min-width: 550px) {
   // h1 { font-size: 5.0rem; }
-  h1 { font-size: 3.1rem; }
+  h1 { font-size: 2.9rem; }
   h2 { font-size: 1.2rem; }
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
@@ -175,12 +176,14 @@ p {
   line-height:1.3;
   }
   h1 {
-    font-weight: normal;
+  font-family: $font-stack;
+  font-style: normal;
+  font-weight:500;
   }
 
 h2 {
   text-transform: uppercase;
-  font-family: "canada-type-gibson", Gibson, sans-serif;
+  font-family: $font-stack2;
   font-style: normal;
   font-weight: 600;
   letter-spacing: 2px;

@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
 
 h1 {
-  font-size: 3.1rem;
+  font-size: 2.9rem;
   line-height: 1.3;
   letter-spacing: -.1rem; }
 
@@ -221,7 +221,7 @@ h6 {
 /* Larger than phablet */
 @media (min-width: 550px) {
   h1 {
-    font-size: 3.1rem; }
+    font-size: 2.9rem; }
 
   h2 {
     font-size: 1.2rem; }
@@ -249,7 +249,9 @@ p {
   line-height: 1.3; }
 
 h1 {
-  font-weight: normal; }
+  font-family: "minion-pro", serif;
+  font-style: normal;
+  font-weight: 500; }
 
 h2 {
   text-transform: uppercase;
